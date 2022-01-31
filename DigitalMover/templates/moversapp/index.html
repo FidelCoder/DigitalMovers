@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Briliant Movers</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'images/img/logo.jpeg' %}" rel="icon">
+  <link href="{% static 'images/img/logo.jpeg' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'css/moversapp/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{%  static  'css/moversapp/style.css'  %}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Plato - v4.7.0
+  * Template URL: https://bootstrapmade.com/plato-responsive-bootstrap-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+<style>
+  im {
+  width: 200px;
+  height: 300px;
+}
+</style>
+
+<body>
+  <div class="wrap">
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero">
+      <div class="hero-container" data-aos="fade-up">
+        <h1>Start your new digital experience with <span></span></h1>
+        <h2>We are a team that will ensure a seamless transition to your new home</h2>
+        <a href="#about" class="btn-get-started scrollto">Get Started</a>
+      </div>
+    </section><!-- End Hero -->
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center">
+      <div class="container d-flex align-items-center justify-content-between">
+
+        <div class="logo">
+          <h1 class="text-light"><a href="#hero"><span>Brilliant Movers</span></a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        </div>
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="#about">About</a></li>
+            <li><a class="nav-link scrollto" href="#services">Services</a></li>
+            <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+            <li><a class="nav-link scrollto" href="#pricing">How We Services</a></li>
+            <li><a class="nav-link scrollto" href="#team">Team</a></li>
+            <li><a href="{% url 'blog' %}">Blog</a></li>
+            <!--<li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+              <ul>
+                <li><a href="#">Drop Down 1</a></li>
+                <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Deep Drop Down 1</a></li>
+                    <li><a href="#">Deep Drop Down 2</a></li>
+                    <li><a href="#">Deep Drop Down 3</a></li>
+                    <li><a href="#">Deep Drop Down 4</a></li>
+                    <li><a href="#">Deep Drop Down 5</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Drop Down 2</a></li>
+                <li><a href="#">Drop Down 3</a></li>
+                <li><a href="#">Drop Down 4</a></li>
+              </ul>
+            </li>-->
+            <li><a class="nav-link scrollto" href="#contact">Get A Quote</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
+      </div>
+    </header><!-- End Header -->
+
+    <main id="main">
+
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container">
+
+          <div class="row">
+            <div style="background-image: url({% static 'images/img/bblo.jpg' %})" data-aos="fade-right" class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" id='im'></div>
+            <div class="col-xl-7 pt-4 pt-lg-0 d-flex align-items-stretch">
+              <div class="content d-flex flex-column justify-content-center" data-aos="fade-left">
+                <h3>What Is Behind The Magic?</h3>
+                <p>
+                  Briliant Movers is a Nairobi-based moving and storage company specializing in all aspects of residential and commercial moves, Warehousing and cleaning services. The company was founded by a team of professionals with more than 20 years of combined experience in the Transit business.
+                </p>
+                <div class="row">
+                  <div class="col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
+                    <i class="bx bx-receipt"></i>
+                    <h4>Customer Focused</h4>
+                    <p>We major in providing quality services that cater to our clients direct needs.Our qualified stuff will provide a seamless transition to your new destination</p>
+                  </div>
+                  <div class="col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
+                    <i class="bx bx-cube-alt"></i>
+                    <h4>Transparency</h4>
+                    <p>We value our clients and we practice transparency to the core and that brings a smile</p>
+                  </div>
+                  <div class="col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
+                    <i class="bx bx-images"></i>
+                    <h4>Efficiency</h4>
+                    <p>Brilliants are efficient in service delivery and on time</p>
+                  </div>
+                  <div class="col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="400">
+                    <i class="bx bx-shield"></i>
+                    <h4>Adaptability</h4>
+                    <p>We are flexible and thus we adapt and to do clean job.</p>
+                  </div>
+                </div>
+              </div><!-- End .content-->
+            </div>
+          </div>
+
+        </div>
+      </section><!-- End About Section -->
+
+      <!-- ======= Clients Section ======= -->
+      <section id="clients" class="clients">
+        <div class="container">
+
+          <div class="row">
+
+            <div class="col-lg-2 col-md-4 col-6">
+              <img src="{% static 'images/img/clients/client-1.png' %}" class="img-fluid" alt="" data-aos="zoom-in">
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6">
+              <img src="{% static 'images/img/clients/client-2.png' %}" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6">
+              <img src="{% static 'images/img/clients/client-3.png' %}" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="200">
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6">
+              <img src="{% static 'images/img/clients/client-4.png' %}" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="300">
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6">
+              <img src="{% static 'images/img/clients/client-5.png' %}" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="400">
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6">
+              <img src="{% static 'images/img/clients/client-6.png' %}" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500">
+            </div>
+
+          </div>
+
+        </div>
+      </section><!-- End Clients Section -->
+
+      <!-- ======= Features Section ======= -->
+      <section id="features" class="features">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div class="card" data-aos="fade-up">
+                <img src="{% static 'images/img/o1.jpg' %}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <i class="bx bx-tachometer"></i>
+                  <h5 class="card-title"><a href="">Our Mission</a></h5>
+                  <p class="card-text">Dedication the highest customer service delivered with a sense of warmth, friendliness, individual pride, and company sprit. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-5 mt-md-0 d-flex align-items-stretch">
+              <div class="card" data-aos="fade-up" data-aos-delay="150">
+                <img src="{% static 'images/img/s.jpg' %}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <i class="bx bx-file"></i>
+                  <h5 class="card-title"><a href="">Our Plan</a></h5>
+                  <p class="card-text">Being in the field for more than 5 years our plan is to expand network, offer more services, creat job opportunities, improve and adapt tech in our service delivery and above all give back to the society.  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-5 mt-lg-0 d-flex align-items-stretch">
+              <div class="card" data-aos="fade-up" data-aos-delay="300">
+                <img src="{% static 'images/img/a4.jpg' %}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <i class="bx bx-show"></i>
+                  <h5 class="card-title"><a href="">Our Vision</a></h5>
+                  <p class="card-text">To make the Worl a better and peacefull place </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section><!-- End Features Section -->
+
+      <!-- ======= Cta Section ======= -->
+      <section id="cta" class="cta">
+        <div class="container">
+
+          <div class="text-center" data-aos="zoom-in">
+            <h3>Call To Action</h3>
+            <p> Our global movement works in over 13 countries to offer the servies you need. Our core values are transparency, efficiency, customer focused and adaptability</p>
+            <a class="cta-btn" href="#">Call To Action</a>
+          </div>
+
+        </div>
+      </section><!-- End Cta Section -->
+
+      <!-- ======= Services Section ======= -->
+      <section id="services" class="services">
+        <div class="container">
+
+          <div class="section-title" data-aos="fade-down">
+            <span>Services</span>
+            <h2>Services</h2>
+            <p>We are happy if you are happy... contact to get our services </p>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                <i class="bi bi-briefcase" style="color: #0ea5e0;"></i>
+                <h4><a href="#">Domestic & Intercounty Relocation Services</a></h4>
+                <p>B.M looks out that you get te best of services and ushers you warmly to your new home. We offer quality and , price-effective solutions. Our skillfull personells, due to their professionalism, know how to uphold the highest standards of customer care. We will treat you and your belongings with the greatest respect and care. We also provide trucks and packing services. Every year we perform thousands of relocations and we pride ourselves to offer work together to ensure our  clients are happy and satisfied by what we do.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-card-checklist" style="color: #07cc70;"></i>
+                <h4><a href="#">Office Relocation</a></h4>
+                <p>There’s nothing we won’t do for you when relocating your business. We provide inclusive office relocation services, ranging from move management to storage and logistics to valuation coverage. We have a global capacity for corporate relocation with representatives and locations spanning the world. There’s nowhere in the world we can’t move your business, and no limits to which we won’t go to get you there.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-bar-chart" style="color: #e40373;"></i>
+                <h4><a href="#">Warehousing</a></h4>
+                <p>Your personal effects and prized possessions deserve a home away from home. Trust brilliant Movers and Relocations to store them safely when you don’t need to use them.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-binoculars" style="color: #f0b103;"></i>
+                <h4><a href="#">Machinery Move</a></h4>
+                <p>Machinery moving is a specialized service for corporate organizations that are going through expansion, changing location or in transition. 
+
+                  Machines come in all sorts of weights, shapes and sizes. Most are heavy, expensive and very critical to an organization’s core work. They might be industrial manufacturing machines, printing presses, big data storage units (servers), large medical machines, safes, vaults, ATM machines, among others.
+                  
+                  A single mistake can be very expensive. Therefore, safety and risk management are the first concerns when conducting this move.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="500">
+                <i class="bi bi-brightness-high" style="color: #3145fa;"></i>
+                <h4><a href="#">Cleaning Services</a></h4>
+                <p>Digital Movers Kenya offers professional DSTV and Zuku installation services to Nairobi residents at an affordable cost. Whether you need your brand new flat screen TV mounted in your lounge, an innovative solution for your kitchen or bedroom or you are a business that needs several televisions wall mounted, we can help.<br>
+                  <ol>
+                    <li>Home Spring Cleaning</li>
+                    <li>Event & After Party</li>
+                    <li>Post Construction Cleaning</li>
+                    <li>Hospitality Cleaning</li>
+                    <li>Warehouse Cleaning</li>
+                    <li>Office & Commercial Property Cleaning</li>
+                    <li>Pest control and Fumigatiion</li>
+                    <li>Carpet/Upholstery Cleaning</li>
+                  </ol>
+                
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="600">
+                <i class="bi bi-calendar4-week" style="color: #a00098;"></i>
+                <h4><a href="#">Dish Installation</a></h4>
+                <p>Brilliant Movers offers professional DSTV and Zuku installation services to Nairobi residents at an affordable cost. Whether you need your brand new flat screen TV mounted in your lounge, an innovative solution for your kitchen or bedroom or you are a business that needs several televisions wall mounted, we can help.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section><!-- End Services Section -->
+
+      <!-- ======= Portfolio Section ======= -->
+      <section id="portfolio" class="portfolio section-bg">
+        <div class="container">
+
+          <div class="section-title" data-aos="fade-down">
+            <span>Portfolio</span>
+            <h2>Portfolio</h2>
+            <p>We are working very hard everyday strategizing to ensure we offer the best of services</p>
+          </div>
+
+          <div class="row" data-aos="fade-up" data-aos-delay="150">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="portfolio-flters">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-app">Get The View</li>
+                <li data-filter=".filter-card">Get Better Experience</li>
+                <li data-filter=".filter-web">Live Appreciating Our Services</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="300">
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="{% static 'images/img/a1.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>International Services</h4>
+                  <p>We move the world serving you. And we love it that way</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="{% static 'images/img/a1.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img src="{% static 'images/img/a2.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Reliable Transit</h4>
+                  <p>Smooth ride to your new home</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="{% static 'images/img/a2.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                 <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="{% static 'images/img/a3.png' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>We Pack And Upack</h4>
+                  <p>We pack your property neatly, unpack it upon arrival to the destination</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="{% static 'images/img/a3.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                 <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img src="{% static 'images/img/mou.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>TV Mounting</h4>
+                  <p>Let us mount your TV and have a different view of everything</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="{% static 'images/img/mou.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                  <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img src="{% static 'images/img/off.webp' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Office Relocation</h4>
+                  <p>We are proffesional in our approach and we handle your files and computers with alot of caution</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="{% static 'images/img/off.webp' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                 <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="{% static 'images/img/dish.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Dish Installation</h4>
+                  <p>Let us install your dish so that you can access Netflix Amazon prime and many more progrommes</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="{% static 'images/img/dish.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                  <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img src="{% static 'images/img/ware.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Warehousing</h4>
+                  <p>We have a large and secure warehouse with condusive and reliable storage facilities</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="{% static 'images/img/ware.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                  <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img src="{% static 'images/img/clean1.jpeg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Cleaning</h4>
+                  <p>We exist because of you and we ensure you coexist in a clean environment</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="{% static 'images/img/clean1.jpeg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                  <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img src="{% static 'images/img/m1.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Machinery Move</h4>
+                  <p>With our expertise, we can confidently assure you that it won’t be as disruptive as you predict.</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="{% static 'images/img/m1.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section><!-- End Portfolio Section -->
+
+      <!-- ======= Testimonials Section ======= -->
+      <section id="testimonials" class="testimonials">
+        <div class="container position-relative">
+
+          <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="{% static 'images/img/testimonials/testimonials-1.jpg'%}" class="testimonial-img" alt="">
+                  <h3>Saul Goodman</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Mlinifanyia kazi mzuri mrudi tena apa sina mapicha walae
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div><!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="{% static 'images/img/testimonials/testimonials-2.jpg'%}" class="testimonial-img" alt="">
+                  <h3>Sara Wilsson</h3>
+                  <h4>Designer</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Mlinifanyia kazi mzuri mrudi tena apa sina mapicha walae
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div><!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="{% static 'images/img/testimonials/testimonials-3.jpg'%}" class="testimonial-img" alt="">
+                  <h3>Jena Karlis</h3>
+                  <h4>Store Owner</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Mlinifanyia kazi mzuri mrudi tena apa sina mapicha walae
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div><!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="{% static 'images/img/testimonials/testimonials-4.jpg'%}" class="testimonial-img" alt="">
+                  <h3>Matt Brandon</h3>
+                  <h4>Freelancer</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Mlinifanyia kazi mzuri mrudi tena apa sina mapicha walae
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div><!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="{% static 'images/img/testimonials/testimonials-5.jpg'%}" class="testimonial-img" alt="">
+                  <h3>John Larson</h3>
+                  <h4>Entrepreneur</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Mlinifanyia kazi mzuri mrudi tena apa sina mapicha walae
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div><!-- End testimonial item -->
+
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+        </div>
+      </section><!-- End Testimonials Section -->
+
+      <!-- ======= Team Section ======= -->
+      <section id="team" class="team">
+        <div class="container">
+
+          <div class="section-title" data-aos="fade-down">
+            <span>Team</span>
+            <h2>Team</h2>
+            <p>This is the team bahind the success.</p>
+          </div>
+
+          <div class="row">
+
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <div class="member" data-aos="fade-up" data-aos-delay="100">
+                <img src="{% static 'images/img/cligr1.jpeg'%}" class="img-fluid" alt="">
+                <div class="member-info">
+                  <div class="member-info-content">
+                    <h4>Monicah</h4>
+                    <span>Chief Executive Officer</span>
+                  </div>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 mt-4 mt-md-0">
+              <div class="member" data-aos="fade-up" data-aos-delay="200">
+                <img src="{% static 'images/img/cligr3.jpeg'%}" class="img-fluid" alt="">
+                <div class="member-info">
+                  <div class="member-info-content">
+                    <h4>Sarah Jhonson</h4>
+                    <span>Chief Marketing Personell</span>
+                  </div>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 mt-4 mt-lg-0" data-wow-delay="0.2s">
+              <div class="member" data-aos="fade-up" data-aos-delay="300">
+                <img src="{% static 'images/img/cligr2.jpeg'%}" class="img-fluid" alt="">
+                <div class="member-info">
+                  <div class="member-info-content">
+                    <h4>Phabian Lucas</h4>
+                    <span>Deputy Chairperson</span>
+                  </div>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 mt-4 mt-lg-0" data-wow-delay="0.3s">
+              <div class="member" data-aos="fade-up" data-aos-delay="400">
+                <img src="{% static 'images/img/cligr1.jpeg'%}" class="img-fluid" alt="">
+                <div class="member-info">
+                  <div class="member-info-content">
+                    <h4>Griffins Oduol</h4>
+                    <span>Tech Enthusiast</span>
+                  </div>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/_thee_oduol_/"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/griffines-onyango-a138b11b4/"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section><!-- End Team Section -->
+
+      <!-- ======= Pricing Section ======= -->
+      <section id="pricing" class="pricing">
+        <div class="container">
+
+          <div class="section-title" data-aos="fade-down">
+            <span>Previledges Our Clients Enjoy</span>
+            <h2>Previledges Our Clients Enjoy</h2>
+            <p>Steps we take to make sure you are served adequately...</p>
+          </div>
+
+          <div class="row no-gutters">
+
+            <div class="col-lg-4 box" data-aos="zoom-in" data-aos-delay="200">
+              <h3>Before The Move</h3>
+              <ul>
+                <li><i class="bx bx-check"></i> Home search: Finding the right home is a critical part of making your relocation a success</li>
+                <li><i class="bx bx-check"></i> Imigration services: We offer personalised advice from our network of immigration specialists.</li>
+                <li><i class="bx bx-check"></i> In-home consultation: A Crown Consultant will be conducting the in-home consultation and be able to guide you through the move process.</li>
+                <li><i class="bx bx-check"></i> Packing: When the crew arrives our team leader will confirm with you all the items to be removed before they begin to carefully pack your belongings.</li>
+                <li><i class="bx bx-check"></i> <span>Virtual consultation: Simple, virtual and convenient survey to get you on the move</span></li>
+              </ul>
+              <a href="#" class="get-started-btn">Get Started</a>
+            </div>
+
+            <div class="col-lg-4 box featured" data-aos="zoom-in" data-aos-delay="100">
+              <h3>During Transit</h3>
+              <ul>
+                <li><i class="bx bx-check"></i> Personal property protection: No matter where you go in the world, our belongings and liability insurance has you and your belongings covered.</li>
+                <li><i class="bx bx-check"></i> Transit protection: We ensure that during transit everything is intact and in good condition</li>
+                <li><i class="bx bx-check"></i> Transport Method and Storage:For everything you plan to take with you during your move, we offer a choice of transport methods & storage solutions.</li>
+                <!--<li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
+                <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>-->
+              </ul>
+              <a href="#" class="get-started-btn">Get Started</a>
+            </div>
+
+            <div class="col-lg-4 box" data-aos="zoom-in" data-aos-delay="200">
+              <h3>At Destination</h3>
+              <ul>
+                <li><i class="bx bx-check"></i> Destination settling in: On arrival, we offer a range of settling-in services to help make your house a 'home' and allow you to start life in your new location.</li>
+                <li><i class="bx bx-check"></i> Confirmation if everything is in good state and the client is satisfied and happy with our work</li>
+                <li><i class="bx bx-check"></i> Payment is wired as per the directives</li>
+                <!--<li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
+                <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>-->
+              </ul>
+              <a href="#" class="get-started-btn">Get Started</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section><!-- End Pricing Section -->
+
+      <!-- ======= F.A.Q Section ======= -->
+      <section id="faq" class="faq">
+        <div class="container">
+
+          <div class="section-title" data-aos="fade-down">
+            <span>F.A.Q</span>
+            <h2>F.A.Q</h2>
+            <p>Frequently Asked Questions</p>
+          </div>
+
+          <div class="faq-list">
+            <ul>
+              <li data-aos="fade-up">
+                <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Are movers obligated to move my goods for the estimate they quote? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                  <p>
+                    Not if it’s a non-binding estimate. Make sure all estimates are in writing. The estimate must clearly state whether it is non-binding or binding. If it’s a binding agreement, they’re legally obligated to follow the estimate.
+
+Remember, a mover is under no requirement to make an estimate to the shipper, so be sure to ask for a written estimate.
+                  </p>
+                </div>
+              </li>
+
+              <li data-aos="fade-up" data-aos-delay="100">
+                <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">What do the following estimate terms mean? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    <strong><i>Non-binding estimate:</i></strong> A non-binding estimate is one that can change, although these estimates should be reasonably accurate and provide you with a general idea of the moving cost. Typically, a mover will schedule an onsite visit and check out the goods for the estimate. If you add items or request additional services, the mover may void the estimate or revise it. The non-binding estimate must be in writing and state that it is non-binding.</br>
+
+                    <p1> </p1> <br>
+
+<strong>110% rule:</strong> If the final cost exceeds the non-binding estimated amount, the mover must deliver the goods upon payment of the estimated amount plus 10% of that amount. The mover must then defer the balance due on the charges for 30 days.
+                  </br>
+                  <p></p>
+
+<strong>Binding estimate:</strong> A binding estimate is a set price estimate. It is a legal agreement between you and the mover that the cost to move the goods will not exceed the price agreed upon. You still may add services, and the cost for those services is due at delivery. Binding agreements must be in writing.
+                  </p>
+                </div>
+              </li>
+
+              <li data-aos="fade-up" data-aos-delay="200">
+                <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">What do you consider when giving a quotation?What do you consider when giving a quotation? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    The biggest determinants of move costs are volume of the goods and distance. Other cost parameters are packing requirements, access to the facilities, etc. For international removals the cost regime at destination and origin countries, as well as freight costs play a very major role.
+                  </p>
+                </div>
+              </li>
+
+              <li data-aos="fade-up" data-aos-delay="300">
+                <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Do you have permanent staff? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                  Yes we do – 80% of our staff are permanent. The other percentage is a composition of our Academy. Would you like to know more about Briliant Movers?
+                  </p>
+                </div>
+              </li>
+
+              <li data-aos="fade-up" data-aos-delay="400">
+                <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">What differentiates Briliant Movers from other relocation companies? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    We believe in flexible, customized solutions for our clients. We modify processes, materials and service delivery to optimize the relocation services experience for your relocation team and relocating employees. When it comes to relocation, one size does not fit all
+                  </p>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+
+        </div>
+      </section><!-- End F.A.Q Section -->
+
+      <!-- ======= Contact Us Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container">
+
+          <div class="section-title" data-aos="fade-down">
+            <span>Contact Us</span>
+            <h2>Contact Us</h2>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-12" data-aos="fade-up" data-aos-delay="100">
+              <div class="info-box">
+                <i class="bx bx-map"></i>
+                <h3>Our Address</h3>
+                <p>P.O.Box: 5459-00200 Nairobi, Kenya</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+              <div class="info-box">
+                <i class="bx bx-envelope"></i>
+                <h3>Email Us</h3>
+                <p>brilliantmoversgroup162@gmail.com</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+              <div class="info-box">
+                <i class="bx bx-phone-call"></i>
+                <h3>Call Us</h3>
+                <p>+254798636935<br>+254115065486</p>
+              </div>
+            </div>
+          </div>
+
+          <!--Whatsapp widget-->
+          <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-09a301d4-14d7-4c55-8265-e394649a027b"></div>
+
+
+          <form action='https://formsubmit.co/griffinesonyango@gmail.com' method="POST" role="form" class="php-email-form mt-4" data-aos="fade-up" data-aos-delay="400" value='indexhtml'>
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+              </div>
+            </div>
+            <div class="form-group mt-3">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Please Input the services you need" required>
+            </div>
+            <div>
+              <input type="text" name="mfrom" class="form-control" id="mfrom" placeholder="From" required>
+            </div>
+            <div>
+              <input type="text" name="mto" class="form-control" id="mto" placeholder="To" required>
+            </div>
+            <div class="form-group mt-3">
+              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+            </div>
+            <div class="my-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+            </div>
+            <div class="text-center"><button type="submit">Send Message</button></div>
+          </form>
+
+        </div>
+      </section><!-- End Contact Us Section -->
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+
+      <div class="footer-newsletter">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <h4>Join Our Newsletter</h4>
+              <p>Subscribe and be the first to know our new updates</p>
+              <form action="" method="post">
+                <input type="email" name="email"><input type="submit" value="Subscribe">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h3>Briliant Movers</h3>
+              <p>
+                P.O.Box: 5459-00200 <br>
+                THE POINT MALL, 2nd floor, Nairobi<br>
+                Kenya <br><br>
+                <strong>Phone:</strong> +254798636935<br>
+                <strong>Email:</strong> brilliantmoversgroup162@gmail.com<br>
+              </p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#pricing">Terms of service</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Portfolio</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="#services">Home Moving</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#services">Office Moving</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#services">Product Management</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#services">DSTV Installation</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#services">TV Mounting</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Our Social Networks</h4>
+              <p>Connect with us through our various social Networks</p>
+              <div class="social-links mt-3">
+                <a href="https://twitter.com/BrilliantMovers?t=eUUfuyFPihwnpk4I6UqhUA&s=08" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="https://www.facebook.com/brilliant.movers.3" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://instagram.com/brilliantmoversgroup?utm_medium=copy_link" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <!--<a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>-->
+                <a href="https://www.linkedin.com/in/brilliant-mover-6a700722b" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="container py-4">
+        <div class="copyright">
+          &copy; Copyright <strong><span>BrilliantMovers</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/plato-responsive-bootstrap-website-template/ -->
+          Designed & Developed by <a href="https://www.linkedin.com/in/griffines-onyango-a138b11b4/">Griffins Oduol</a>
+        </div>
+      </div>
+    </footer><!-- End Footer -->
+
+  </div>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+
+</html>
